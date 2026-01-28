@@ -1,15 +1,15 @@
-Spring PetClinic Deployment on AWS EC2
-1. Project Overview
+🐾 Spring PetClinic on AWS EC2
+📘 Project Overview
 
-Deployment of the Spring PetClinic Spring Boot application on an AWS EC2 instance using AWS Sandbox.
+Deployment of the Spring PetClinic Spring Boot application on an AWS EC2 instance using AWS Sandbox (Learner Lab).
 
-2. Platform
+☁️ Platform
 
-AWS EC2 (Sandbox / Learner Lab)
+AWS EC2 (Sandbox)
 
 Amazon Linux 2023
 
-3. Technology Stack
+🛠️ Technology Stack
 
 Java 17
 
@@ -19,24 +19,24 @@ Maven
 
 H2 Database
 
-4. Deployment Steps (Summary)
+🚀 Deployment Summary
 
-Launched EC2 instance (t2.micro)
+EC2 instance launched (t2.micro)
 
-Configured Security Group (Ports 22, 8080)
+Security Group configured (Ports 22, 8080)
 
-Installed Java, Maven, Git
+Java, Maven, Git installed
 
-Cloned PetClinic repository
+PetClinic repository cloned
 
-Ran Spring Boot application using Maven
+Application started using Maven
 
-5. Run Command
+▶️ Run Command
 mvn spring-boot:run
 
-6. Application Access
+🌐 Application Access
 http://<EC2_PUBLIC_IP>:8080
 
-7. Result
+✅ Result
 
-Spring PetClinic application successfully deployed and accessed publicly on AWS EC2.
+Spring PetClinic application successfully deployed and accessible via public IP on AWS EC2.
